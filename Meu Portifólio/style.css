@@ -1,24 +1,88 @@
 * {
 
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
+    
+    }
+    
+    body {
+    
+     height: 100vh;
+     background-color: rgba(119, 201, 255, 0.555);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     margin: 0;
+     color: black;
+     
+    }
+    
+    .cabecalho {
+    
+    padding: 2% 0% 0% 10%;
+    
+    }
+
+    .cabecalho-menu{
+
+        display:flex;
+        gap: 170px;
+        
+        }
+        
+        .cabecalho-menu-links{
+        
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        
+        }
+        
+        .titulo-destaque {
+        
+        color:rgb(0, 0, 0)
+        
+        }
+        
+        .conteudo {
+        
+        height: auto;
+        flex-direction: column;
+        margin: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        
+        }
+        
+        .apresentacao-conteudo {
+        
+        width: 615px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        gap: 30px;
+        order: 2;   
+        }
+
+.apresentacao-conteudo-titulo {
+
+font-size: 38px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: justify;
 
 }
 
-body {
+.apresentacao-conteudo-paragrafo {
 
- height: 100vh;
- background-color: rgba(119, 201, 255, 0.555);
- background-size: cover;
- background-repeat: no-repeat;
- background-attachment: fixed;
- margin: 0;
- color: black;
- 
-}
-
-.cabecalho {
-
-padding: 2% 0% 3% 37%;
-
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+text-align: justify;
+     
 }
